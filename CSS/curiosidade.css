@@ -1,0 +1,79 @@
+.container_curiosidades {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container_curiosidades h2{
+
+    font-family:'rampart';
+    text-align: start;
+    padding-left: 40px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+}
+
+.cards {
+
+    flex-wrap: wrap;
+    display: flex;
+    height: auto;
+    width: 100%;    
+    gap: 3rem;
+    justify-content: space-around;
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(72, 175, 227, 0.5);
+    width: 400px;
+    border-radius: 2rem;
+    box-shadow: 0 0 1em gold;
+    
+    
+}
+
+.card img{
+
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+}
+
+
+
+.conteudo{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    gap: 2rem;
+        
+    
+}
+
+.conteudo p{
+
+    padding: 1rem;
+    text-align: justify;
+    
+}
+
+.Saiba{
+
+    font-family:'rufina';
+    background-color: rgba(128, 128, 128, 0.4);
+    padding: 8px 10px;
+    border-radius: 20px;
+    width: 40%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

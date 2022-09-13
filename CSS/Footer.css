@@ -1,0 +1,26 @@
+Footer{
+    
+
+    display: flex;
+    background-color:skyblue;
+    justify-content: center; 
+
+}
+
+
+.Linkedin{
+    
+    width: 100%;
+    margin-left: 45%;
+    margin-top: 1%;
+    
+}
+    
+
+.Github {
+    
+    width: 100%;
+    margin-right: 35%;
+    margin-top: 1%;
+      
+}

@@ -1,0 +1,23 @@
+.container_video{
+
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.container_video iframe{
+
+    width: 100%;
+    height: 600px;
+    
+}
+
+
+.container_video h2{
+
+    text-align: start;
+    padding-left: 40px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+}
